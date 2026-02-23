@@ -1,22 +1,163 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>AIQ World</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AIQ — Public Technique</title>
+  <meta name="description" content="AIQ (Assertive Intelligence Quotient) is a public technique for dignity, stability, and mutual respect. I∞ is the official badge to prevent confusion about official status." />
+  <style>
+    :root{
+      --bg:#0b0b0b;
+      --fg:#f5f5f5;
+      --muted:#bdbdbd;
+      --card:#141414;
+      --line:#2a2a2a;
+      --link:#9ad1ff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji";
+      background:var(--bg);
+      color:var(--fg);
+      line-height:1.75;
+    }
+    a{color:var(--link)}
+    .wrap{max-width: 980px; margin: 0 auto; padding: 28px 16px 64px;}
+    header{padding: 24px 0 8px;}
+    .badge{
+      display:inline-flex;
+      align-items:flex-end;
+      gap:10px;
+      padding:14px 16px;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+    }
+    .mark{
+      font-size:56px;
+      font-weight:700;
+      letter-spacing:0.5px;
+    }
+    .mark sup{
+      font-size:22px;
+      top:-1.2em;
+      position:relative;
+      font-weight:700;
+    }
+    .tag{
+      font-size:12px;
+      color:var(--muted);
+      letter-spacing:0.12em;
+      text-transform:uppercase;
+      padding-bottom:10px;
+      white-space:nowrap;
+    }
+    h1{font-size:36px; margin: 18px 0 8px;}
+    p.lead{color:var(--muted); margin-top:0;}
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:16px;
+      margin-top:20px;
+    }
+    @media (min-width: 860px){
+      .grid{grid-template-columns: 1fr 1fr;}
+    }
+    section.card{
+      border:1px solid var(--line);
+      border-radius:16px;
+      background:var(--card);
+      padding:18px 18px 14px;
+    }
+    section.card h2{margin: 0 0 10px; font-size:18px;}
+    section.card h3{margin: 16px 0 6px; font-size:15px; color:var(--fg);}
+    hr{border:none; border-top:1px solid var(--line); margin: 18px 0;}
+    ol{margin: 8px 0 0 18px; padding:0;}
+    li{margin: 8px 0; color:var(--fg);}
+    footer{margin-top:28px; color:var(--muted); font-size:12px;}
+    .links{margin-top:10px; display:flex; flex-wrap:wrap; gap:10px;}
+    .pill{
+      display:inline-block;
+      padding:8px 10px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      text-decoration:none;
+      color:var(--fg);
+      background:rgba(255,255,255,0.02);
+    }
+  </style>
 </head>
-<body style="background:black;color:white;font-family:serif;text-align:center;padding:40px;">
 
-<h1>AIQ — Assertive Intelligence Quotient</h1>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge" aria-label="AIQ official badge">
+        <div class="mark">I<sup>∞</sup></div>
+        <div class="tag">Public Technique · 2026</div>
+      </div>
 
-<p>
-This framework is open to all humanity.
-</p>
+      <h1>AIQ — Assertive Intelligence Quotient</h1>
+      <p class="lead">
+        A public technique for expressing truth clearly while preserving dignity, stability, and mutual respect.
+        The I<sup>∞</sup> mark exists only to prevent confusion about “official” status.
+      </p>
 
-<p>
-<a href="charter.md" style="color:white;font-size:22px;">
-Read the AIQ Charter
-</a>
-</p>
+      <div class="links">
+        <a class="pill" href="./charter.md">AIQ Charter</a>
+        <a class="pill" href="./AIQ_Open_Letter_Official.pdf">Open Letter (PDF)</a>
+      </div>
+    </header>
 
+    <div class="grid">
+      <section class="card" id="declaration">
+        <h2>AIQ Public Technique Declaration</h2>
+
+        <h3>日本語</h3>
+        <p><strong>AIQ（Assertive Intelligence Quotient）は公開技法です。</strong><br>
+          真実を明確に伝えつつ、尊厳・安定・相互尊重を守るための技法です。目的は制御ではなくバランス、支配ではなく調和です。</p>
+        <p>AIQは、教育・研究・職場・家庭・コミュニティで<strong>誰でも無料で</strong>利用できます。教材・ワーク・質問票・翻訳・改変・再配布も自由です。</p>
+        <p>ただし、第三者が<strong>「公式」「認定」「監修」「推奨」</strong>など、誤認を招く表示をすることは禁止します。</p>
+
+        <hr>
+
+        <h3>English</h3>
+        <p><strong>AIQ (Assertive Intelligence Quotient) is a public technique.</strong><br>
+          It helps people express truth clearly while preserving dignity, stability, and mutual respect—aiming for balance, not control; harmony, not dominance.</p>
+        <p>AIQ is <strong>free for anyone</strong> to use in education, research, workplaces, families, and communities. You may create and share materials, questionnaires, translations, adaptations, and redistributions.</p>
+        <p>However, no one may claim <strong>“official,” “certified,” “endorsed,” or “authorized”</strong> status in a confusing way.</p>
+      </section>
+
+      <section class="card" id="badge-policy">
+        <h2>I<sup>∞</sup> Official Badge Policy (v2026)</h2>
+
+        <h3>日本語</h3>
+        <ol>
+          <li><strong>意味</strong>：I<sup>∞</sup>は、AIQに関する「公式表示（誤認防止の印）」です。独占のためではありません。</li>
+          <li><strong>AIQは自由</strong>：AIQの利用・改変・配布は自由です。</li>
+          <li><strong>禁止</strong>：I<sup>∞</sup>を使って「公式/認定/監修/推奨」や資格制度、保証を示してはいけません。</li>
+          <li><strong>改変禁止</strong>：I<sup>∞</sup>（ロゴ/バッジ）の改変は禁止です。</li>
+          <li><strong>是正</strong>：誤認が生じた場合、表示の修正・削除を求めることがあります（混同防止のため）。</li>
+        </ol>
+
+        <hr>
+
+        <h3>English</h3>
+        <ol>
+          <li><strong>Meaning</strong>: I<sup>∞</sup> is an official mark to prevent confusion about “official” status—not to monopolize AIQ.</li>
+          <li><strong>AIQ is free</strong>: AIQ may be used, adapted, and shared freely.</li>
+          <li><strong>No misleading use</strong>: Do not use I<sup>∞</sup> to imply official/certified/endorsed status, certification schemes, or guarantees.</li>
+          <li><strong>No modification</strong>: Do not alter the I<sup>∞</sup> mark or badge.</li>
+          <li><strong>Corrections</strong>: We may request removal/correction of confusing claims to prevent misrepresentation.</li>
+        </ol>
+      </section>
+    </div>
+
+    <footer>
+      <p>
+        © AIQ — Public Technique. No exclusive rights claimed. Use for peace, education, and science.
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
