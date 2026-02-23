@@ -22,4 +22,3 @@ If you have suggestions or questions, please use GitHub Issues:
 https://github.com/assertiveintelligenceworld-source/aiq.world/issues
 
 This project is publicly released and may not actively respond to individual inquiries.
-
