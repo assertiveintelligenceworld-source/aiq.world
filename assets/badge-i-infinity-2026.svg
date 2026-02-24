@@ -2,7 +2,7 @@
   <defs>
     <style>
       .bg{fill:#0b0b0b}
-      .ring{fill:none;stroke:#f5f5f5;stroke-width:16}
+      .ring{fill:none;stroke:#f5f5f5;stroke-width:14}
       .txt{fill:#f5f5f5;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans";letter-spacing:4px}
       .small{font-size:44px;font-weight:700}
       .mark{fill:#f5f5f5;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans";font-weight:800}
@@ -12,14 +12,12 @@
   <rect class="bg" x="0" y="0" width="1200" height="1200" rx="120" ry="120"/>
 
   <!-- outer ring (smaller to avoid clipping text) -->
-  <circle class="ring" cx="600" cy="600" r="450"/>
+  <circle class="ring" cx="600" cy="600" r="420"/>
 
   <!-- top text (moved down) -->
-  <text class="txt small" x="600" y="200" text-anchor="middle">AIQ OFFICIAL BADGE</text>
-
+<text class="txt small" x="600" y="230" text-anchor="middle">AIQ OFFICIAL BADGE</text>
   <!-- bottom text (moved up) -->
-  <text class="txt small" x="600" y="1010" text-anchor="middle">PUBLIC TECHNIQUE · 2026</text>
-
+<text class="txt small" x="600" y="970" text-anchor="middle">PUBLIC TECHNIQUE · 2026</text>
  <!-- mark: I^∞ (I scaled to ~5/9) -->
 <text class="mark" x="600" y="690" text-anchor="middle" font-size="200">I</text>
 <text class="mark" x="690" y="565" text-anchor="middle" font-size="89">∞</text>
