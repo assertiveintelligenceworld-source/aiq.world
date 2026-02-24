@@ -2,7 +2,7 @@
   <defs>
     <style>
       .bg{fill:#0b0b0b}
-      .ring{fill:none;stroke:#f5f5f5;stroke-width:18}
+      .ring{fill:none;stroke:#f5f5f5;stroke-width:16}
       .txt{fill:#f5f5f5;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans";letter-spacing:4px}
       .small{font-size:44px;font-weight:700}
       .mark{fill:#f5f5f5;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans";font-weight:800}
@@ -11,16 +11,16 @@
 
   <rect class="bg" x="0" y="0" width="1200" height="1200" rx="120" ry="120"/>
 
-  <!-- outer ring -->
-  <circle class="ring" cx="600" cy="600" r="500"/>
+  <!-- outer ring (smaller to avoid clipping text) -->
+  <circle class="ring" cx="600" cy="600" r="450"/>
 
-  <!-- top text -->
-  <text class="txt small" x="600" y="165" text-anchor="middle">AIQ OFFICIAL BADGE</text>
+  <!-- top text (moved down) -->
+  <text class="txt small" x="600" y="200" text-anchor="middle">AIQ OFFICIAL BADGE</text>
 
-  <!-- bottom text -->
-  <text class="txt small" x="600" y="1055" text-anchor="middle">PUBLIC TECHNIQUE · 2026</text>
+  <!-- bottom text (moved up) -->
+  <text class="txt small" x="600" y="1010" text-anchor="middle">PUBLIC TECHNIQUE · 2026</text>
 
-  <!-- mark: I^∞ -->
-  <text class="mark" x="600" y="700" text-anchor="middle" font-size="360">I</text>
-  <text class="mark" x="735" y="510" text-anchor="middle" font-size="160">∞</text>
+  <!-- mark: I^∞ (slightly re-centered) -->
+  <text class="mark" x="585" y="710" text-anchor="middle" font-size="360">I</text>
+  <text class="mark" x="705" y="545" text-anchor="middle" font-size="160">∞</text>
 </svg>
