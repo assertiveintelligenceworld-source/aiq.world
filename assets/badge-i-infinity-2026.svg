@@ -20,7 +20,7 @@
   <!-- bottom text (moved up) -->
   <text class="txt small" x="600" y="1010" text-anchor="middle">PUBLIC TECHNIQUE · 2026</text>
 
-  <!-- mark: I^∞ (slightly re-centered) -->
-  <text class="mark" x="585" y="710" text-anchor="middle" font-size="360">I</text>
-  <text class="mark" x="705" y="545" text-anchor="middle" font-size="160">∞</text>
+ <!-- mark: I^∞ (I scaled to ~5/9) -->
+<text class="mark" x="600" y="690" text-anchor="middle" font-size="200">I</text>
+<text class="mark" x="690" y="565" text-anchor="middle" font-size="89">∞</text>
 </svg>
